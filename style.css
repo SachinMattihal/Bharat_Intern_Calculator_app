@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #eee5e570;
+    background-image: url('https://media.istockphoto.com/photos/wood-table-top-on-blur-window-glasswall-background-picture-id1129572627?k=20&m=1129572627&s=612x612&w=0&h=Z1fnJQgoiB1bJ5z1MUbiOQPckT7QPAdVQ6nN2guf6_k=');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+    font-family: Arial, sans-serif;
+}
+h2{
+    font-size: 30px;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.calculator {
+
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(75, 71, 71, 0.699);
+    padding: 20px;
+    width: 300px;
+}
+
+#display {
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 4px 6px rgba(75, 71, 71, 0.699);
+    font-size: 28px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: #0f0e0e;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #c5baba48;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.number {
+    background-color: #d4cbcb65;
+}
+
+.operator {
+    background-color: #ff95009d;
+    color: white;
+}
+
+.function {
+    background-color: #ff3b30;
+    color: white;
+}
+.function1 {
+    background-color: #4ee612;
+    color: white;
+}
+button:hover {
+    background-color: #928181;
+}
